@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Menna" />
+    <meta name="description" content="weather app" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="keywords" content="html,css,js,ajax,weather" />
+
+    <link href="http://fonts.googleapis.com/css?family=Roboto:300,400,700|" rel="stylesheet" type="text/css">
+    <link rel="icon" href="img/icon.png" />
+    <link rel="stylesheet" href="https://use.typekit.net/oov2wcw.css">
+    <link rel="stylesheet" href="bootstrap-5.2.0-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="fontawesome-free-6.2.0-web/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    
+
+<section class="weatherBody">
+<div class="background">
+    <div class="container">
+        <!-- SEARCH -->
+        <div class="search py-5">
+            <input type="text" id="search" class="w-100 " placeholder="Search City ...">
+        </div>
+        <!-- ROW -->
+        <div class="row">
+            <!-- FIRST COL -->
+            <div class="col-lg-4">
+             <div class="weather-card">
+                <!-- WATHER TOP -->
+                <div class="weather-top d-flex justify-content-between">
+                    <p id="day"></p>
+                    <p id="month"></p>
+                </div>
+                <!-- WEATHER BODY -->
+                <div class="weather-body">
+                    <!-- location -->
+                    <div class="location">
+                        <p id="currentLocation" class="fs-5"></p>
+                    </div>
+                    <!-- DEGREE -->
+                    <div class="degree d-flex justify-content-between">
+                        <div class="degree-num fw-bolder" >
+                            <span id="todayDgree"></span>
+                        
+                            <sup>o</sup>
+                            C  
+                        </div>
+                    <div  class="weather-icon">
+                    <img id="weatherIcon" class="weather-icon">
+                    </div>
+                    </div>
+
+                    <!-- weather Discraption -->
+                    <p class=" text-info" id="weatherText"></p>
+                <!-- weather ICONS -->
+             <div class="row ">
+                <div class="col-md-4">
+                 <div class="weather-icon ">
+                    <i class="fa-solid fa-umbrella"></i>
+                    <span id="humidity"></span>
+                 </div>
+
+                </div>
+                <div class="col-md-4">
+                    <div class="weather-icon ">
+                        <i class="fa-solid fa-wind"></i>
+                        <span id="wind"></span>
+                    </div>
+   
+                   </div>
+                   <div class="col-md-4">
+                    <div class="weather-icon ">
+                        <i class="fa-regular fa-compass"></i>
+                        <span id="compass"></span>
+                    </div>
+   
+                   </div>
+             </div>
+                </div>
+                
+             </div>
+            </div>
+            <!-- FIRST COL END-->
+            <!-- SECOND COL -->
+          <div class="col-lg-4 ">
+            <div class="primary-card text-center">
+                <!-- top -->
+                <div class="weather-top ">
+                    <p class="nextDay"></p>
+                </div>
+                <!-- body  -->
+               <div class="primary-body">
+                    <!-- body IMG -->
+                    <div class="primary-img my-3">
+                        <img class="nextIcone">
+                    </div>
+                     <!-- body TEMP -->
+                      <!-- body CAPITAL -->
+                     <div class="temp-primary   fs-5 fw-bolder">
+                       <span class="nextDegree"></span>
+                        <sup>o</sup>
+                        C
+                     </div>
+                         <!-- body SMALL -->
+                     <div class="temp-small mt-1 " >
+                        <span class="smallDegree"></span>
+                        <sup>o</sup>
+                     </div>
+                     <!-- DESC -->
+                     <p class=" text-info  mt-4 nextDesc"></p>
+               </div>
+            </div>
+          </div>
+          <!-- 3rd COL -->
+          <div class="col-lg-4 ">
+            <div class="weather-card text-center">
+                <!-- top -->
+                <div class="weather-top ">
+                    <p class="nextDay"></p>
+                </div>
+                <!-- body  -->
+               <div class="primary-body">
+                    <!-- body IMG -->
+                    <div class="primary-img my-3">
+                        <img class="nextIcone">
+                    </div>
+                     <!-- body TEMP -->
+                      <!-- body CAPITAL -->
+                     <div class="temp-primary   fs-5 fw-bolder">
+                        <span class="nextDegree"></span>
+                        <sup>o</sup>
+                        C
+                     </div>
+                         <!-- body SMALL -->
+                     <div class="temp-small mt-1 " >
+                        <span class="smallDegree"></span>
+                        <sup>o</sup>
+                     </div>
+                     <!-- DESC -->
+                     <p class=" text-info  mt-4 nextDesc"></p>
+               </div>
+            </div>
+          </div>
+        </div>
+    </div>
+</div>
+
+</section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- LINKS JS -->
+    <!-- <script src="js/jquery-3.5.1.slim.min.js"></script>
+<script src="js/popper.min.js"></script> -->
+    <script src="bootstrap-5.2.0-dist/js/bootstrap.bundle.min.js"></script>
+   <script src="js/main.js"></script>
+</body>
+</html>

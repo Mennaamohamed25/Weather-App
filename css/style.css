@@ -1,0 +1,81 @@
+/* GLOBAL */
+body{
+    color: #bfc1c8;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    background: #1e202b;
+}
+html {
+    scroll-behavior: smooth;
+}
+/* GLOBAL END*/
+/* FOR ALL */
+.background{
+    background-image: url(../img/banner.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+/* SEARCH */
+.search input[type="text"]{
+border-radius: 30px;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+ 
+}
+
+/* MAIN WEATHER CARD */
+
+.weather-card{
+    
+    background: rgb(50, 53, 68);
+    overflow: hidden;
+    border-radius: 10px;
+    
+}
+.weather-body{
+    padding: 25px;
+}
+.weather-top{
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+}
+.degree-num{
+    font-size: 3.42857rem;
+}
+.weather-icon{
+    width: 5rem;
+}
+
+/* 2nd WEATHER CARD */
+
+.primary-card{
+    background: rgb(37, 38, 49);
+    overflow: hidden;
+    border-radius: 10px;
+}
+.primary-body , .weather-body{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    min-height: 300px;
+  
+}
+
+/* Media Q */
+@media screen and (max-width:1200px) {
+    .degree{
+       display: block !important;
+       text-align: center ;
+    }
+ 
+    .degree-num{
+        font-size: 2rem;
+        font-weight: bold !important;
+    }
+}
